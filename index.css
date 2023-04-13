@@ -1,0 +1,35 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    position: relative;
+}
+
+body {
+    overflow: hidden;
+}
+
+body * {
+    position: absolute;
+}
+
+video {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.video-overlay {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(70, 20, 150, .9), rgba(0, 0, 0, 1));
+}
+
+#main-span {
+    font-size: 10rem;
+    left: 2vw;
+    top: calc(50vh - 7.5rem);
+    white-space: nowrap;
+}
